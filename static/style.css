@@ -1,0 +1,72 @@
+*{box-sizing: border-box;}
+img {width: 100%; display: block;}
+.maincontainer{
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+}
+.albumcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 45%;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px gray;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+.card-title{
+    text-align: center;
+    font-weight: bolder;
+    color: crimson;
+}
+.card-img-container{
+    border:solid gray 1px
+}
+.upload_img_btn{
+     display: block;
+     color: white;
+     background-color: darkblue;
+     padding: 20px;
+     width: 200px;
+     text-align: center;
+     text-decoration: none;
+     margin: auto;
+     border-radius: 10px;
+}
+.upload_img_btn:hover{
+    background-color: crimson;
+    font-weight: bolder;
+}
+
+/*---LOAD.HTML---*/
+.post-title{
+    text-align: center;
+    font-weight: bolder;
+    color: crimson;
+}
+.form_post{
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 10px;
+}
+.btn-submit{
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px auto;
+    border: none;
+}
+.btn-submit:hover{
+    background-color: crimson;
+    font-weight: bolder;
+}
