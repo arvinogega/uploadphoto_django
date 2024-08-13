@@ -1,0 +1,1 @@
+# uploadphoto_django
